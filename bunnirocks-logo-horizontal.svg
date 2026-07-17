@@ -31,6 +31,6 @@
     <path d="M 100 140 C 100 140 107.5 149.5 107.5 152 A 7.5 7.5 0 1 1 92.5 152 C 92.5 149.5 100 140 100 140 Z" fill="#E63946"/>
   </g>
 
-  <text x="212" y="108" font-family="Nunito, 'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="68" font-weight="800" letter-spacing="-1" fill="#12303A">Bunni<tspan fill="#0D5C63" font-weight="500">Rocks</tspan></text>
-  <text x="215" y="142" font-family="Nunito, 'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="600" letter-spacing="5.2" fill="#6B8A8C">Laboratory Compliance Consultant</text>
+  <text x="180" y="108" font-family="Nunito, 'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="68" font-weight="800" letter-spacing="-1" fill="#12303A">Bunni<tspan fill="#0D5C63" font-weight="500">Rocks</tspan></text>
+  <text x="184" y="142" font-family="Nunito, 'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="20" font-weight="600" letter-spacing="5.2" fill="#6B8A8C">Laboratory Compliance Consultant</text>
 </svg>
