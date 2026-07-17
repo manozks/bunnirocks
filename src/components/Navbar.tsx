@@ -61,7 +61,7 @@ export default function Navbar({ currentPage, navigateTo, openContactModal }: Na
             onClick={() => handleNav('home')}
           >
             <img
-              src="/bunnirocks-logo-horizontal.svg"
+              src="https://manozks.github.io/bunnirocks/bunnirocks-logo-horizontal.svg"
               alt="BunniRocks"
               className="h-18 w-auto transition-transform duration-300 group-hover:scale-[1.02]"
               referrerPolicy="no-referrer"

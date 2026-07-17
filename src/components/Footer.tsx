@@ -43,7 +43,7 @@ export default function Footer({ navigateTo, openContactModal }: FooterProps) {
               onClick={() => navigateTo('home')}
             >
               <img
-                src="/bunnirocks-mark-reversed.svg"
+                src="https://manozks.github.io/bunnirocks/bunnirocks-mark-reversed.svg"
                 alt="BunniRocks"
                 className="h-18 w-auto transition-transform duration-300 group-hover:scale-[1.02]"
                 referrerPolicy="no-referrer"
