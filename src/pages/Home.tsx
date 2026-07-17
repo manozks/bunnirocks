@@ -119,31 +119,52 @@ export default function Home({ navigateTo, openContactModal }: HomeProps) {
       {/* SECTION 1: HERO SECTION */}
       <section id="hero-section" className="relative overflow-hidden py-16 sm:py-24 lg:py-28 border-b border-[#0D5C63]/10">
         
+        {/* Full-width Hero Background Image */}
+        <div className="absolute inset-0 z-0">
+          <img
+            src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=1920"
+            alt="Modern Clinical Laboratory Background"
+            className="w-full h-full object-cover select-none pointer-events-none"
+            referrerPolicy="no-referrer"
+            onError={(e) => {
+              // Multi-stage fallback to ensure zero broken images
+              const target = e.currentTarget;
+              if (target.src.includes("photo-1581091226825")) {
+                target.src = "https://images.unsplash.com/photo-1576086213369-97a306d36557?auto=format&fit=crop&q=80&w=1920";
+              } else if (target.src.includes("photo-1576086213")) {
+                target.src = "https://picsum.photos/seed/clinallab/1920/1080?blur=1";
+              }
+            }}
+          />
+          {/* Elegant soft gradient overlay to guarantee perfect contrast and text readability */}
+          <div className="absolute inset-0 bg-gradient-to-r from-[#12303A]/48 via-[#12303A]/55 to-[#12303A]/65 md:from-[#12303A]/56 md:via-[#12303A]/40 md:to-[#12303A]/5" />
+        </div>
+        
         {/* Ambient Grid Background */}
-        <div className="absolute inset-0 bg-[radial-gradient(#0D5C63_1.2px,transparent_1.2px)] [background-size:24px_24px] opacity-[0.06]" />
+        <div className="absolute inset-0 bg-[radial-gradient(#0D5C63_1.2px,transparent_1.2px)] [background-size:24px_24px] opacity-[0.04] z-10" />
         
         {/* Soft Background Gradients */}
-        <div className="absolute -top-40 right-0 w-[500px] h-[500px] rounded-full bg-gradient-to-br from-[#0d5c63]/10 to-[#EAF6F5]/30 blur-3xl" />
-        <div className="absolute top-2/3 left-10 w-[300px] h-[300px] rounded-full bg-gradient-to-tr from-[#E63946]/5 to-[#EAF6F5]/10 blur-2xl" />
+        <div className="absolute -top-40 right-0 w-[500px] h-[500px] rounded-full bg-gradient-to-br from-[#0d5c63]/10 to-[#EAF6F5]/20 blur-3xl z-10" />
+        <div className="absolute top-2/3 left-10 w-[300px] h-[300px] rounded-full bg-gradient-to-tr from-[#E63946]/5 to-[#EAF6F5]/10 blur-2xl z-10" />
 
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-20">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
             
             {/* Left Hero Texts */}
             <div className="lg:col-span-7 space-y-6 text-left">
               
-              <div className="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-[#0D5C63]/10 border border-[#0D5C63]/15">
+              <div className="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-[#EAF6F5]/70 border border-[#0D5C63]/15">
                 <span className="w-1.5 h-1.5 rounded-full bg-[#E63946] animate-pulse"></span>
                 <span className="text-[11px] font-mono font-bold text-[#0D5C63] tracking-wider uppercase">
                   Continuous Regulatory Protection
                 </span>
               </div>
 
-              <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-[#12303A] tracking-tight leading-[1.08] font-sans">
-                Laboratory compliance, <span className="text-[#0D5C63]">engineered for precision.</span>
+              <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-[#EAF6F5] tracking-tight leading-[1.08] font-sans">
+                Laboratory compliance, <span className="text-[#ffffff]">engineered for precision.</span>
               </h1>
               
-              <p className="text-base sm:text-lg text-[#12303A]/80 max-w-2xl leading-relaxed">
+              <p className="text-base sm:text-lg text-[#EAF6F5]/80 max-w-2xl leading-relaxed">
                 The absolute premium partner for high-complexity diagnostic facilities. We combine hands-on ASCP consulting with our enterprise compliance tracking SaaS to guarantee flawless CAP/CLIA certifications, New Lab builds, and rapid validation packages.
               </p>
 
@@ -159,7 +180,7 @@ export default function Home({ navigateTo, openContactModal }: HomeProps) {
                 
                 <button
                   onClick={() => navigateTo('services')}
-                  className="border border-[#12303A]/25 hover:border-[#0D5C63] hover:bg-white/80 text-[#12303A] hover:text-[#0D5C63] px-8 py-3.5 rounded-xl font-medium transition-all text-center cursor-pointer"
+                  className="border border-[#EAF6F5]/75 hover:border-[#0D5C63] hover:bg-white/80 text-[#EAF6F5] hover:text-[#0D5C63] px-8 py-3.5 rounded-xl font-medium transition-all text-center cursor-pointer"
                 >
                   Explore Capabilities
                 </button>
@@ -168,148 +189,22 @@ export default function Home({ navigateTo, openContactModal }: HomeProps) {
               {/* Dynamic Micro stats block */}
               <div className="grid grid-cols-3 gap-6 pt-8 border-t border-gray-200/80 max-w-md">
                 <div>
-                  <span className="block text-2xl sm:text-3xl font-extrabold text-[#0D5C63]">100%</span>
-                  <span className="block text-[10px] text-gray-500 font-mono uppercase tracking-wider mt-0.5">Audit Pass Rate</span>
+                  <span className="block text-2xl sm:text-3xl font-extrabold text-[#EAF6F5]">100%</span>
+                  <span className="block text-[10px] text-[#EAF6F5]/90 font-mono uppercase tracking-wider mt-0.5">Audit Pass Rate</span>
                 </div>
                 <div>
-                  <span className="block text-2xl sm:text-3xl font-extrabold text-[#12303A]">40+</span>
-                  <span className="block text-[10px] text-gray-500 font-mono uppercase tracking-wider mt-0.5">Labs Built Out</span>
+                  <span className="block text-2xl sm:text-3xl font-extrabold text-[#EAF6F5]/50">40+</span>
+                  <span className="block text-[10px] text-[#EAF6F5]/90 font-mono uppercase tracking-wider mt-0.5">Labs Built Out</span>
                 </div>
                 <div>
                   <span className="block text-2xl sm:text-3xl font-extrabold text-[#E63946]">54%</span>
-                  <span className="block text-[10px] text-gray-500 font-mono uppercase tracking-wider mt-0.5">Faster Launches</span>
+                  <span className="block text-[10px] text-[#EAF6F5]/90 font-mono uppercase tracking-wider mt-0.5">Faster Launches</span>
                 </div>
               </div>
 
             </div>
 
-            {/* Right Hero: High-fidelity interactive compliance dashboard preview with premium lab image */}
-            <div className="lg:col-span-5 relative group">
-              <div className="w-full bg-white rounded-3xl shadow-2xl border border-[#0D5C63]/10 overflow-hidden relative">
-                
-                {/* Premium Laboratory consulting banner */}
-                <div className="w-full h-44 overflow-hidden relative">
-                  <img
-                    src="https://images.unsplash.com/photo-1579154204601-01588f35116f?auto=format&fit=crop&q=80&w=800"
-                    alt="Laboratory Compliance Consulting"
-                    className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
-                    referrerPolicy="no-referrer"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-[#12303A] via-[#12303A]/25 to-transparent" />
-                  
-                  {/* Floating metadata */}
-                  <div className="absolute bottom-3 left-4 right-4 flex items-center justify-between text-white">
-                    <div className="flex items-center space-x-1.5">
-                      <span className="w-2 h-2 rounded-full bg-[#E63946] animate-pulse"></span>
-                      <span className="text-[10px] font-bold font-mono tracking-wider text-gray-200">BUNNI_ROCKS // PORTAL</span>
-                    </div>
-                    <span className="text-[9px] font-mono px-1.5 py-0.5 rounded bg-[#0D5C63]/80 text-[#EAF6F5] font-bold uppercase">
-                      HCLD_ACTIVE
-                    </span>
-                  </div>
-                </div>
-
-                <div className="p-5 space-y-4">
-                  {/* Score & Flashing dot */}
-                  <div className="flex items-center justify-between p-4 bg-[#EAF6F5] rounded-2xl border border-[#0D5C63]/10">
-                    <div>
-                      <span className="block text-[10px] font-mono text-gray-500 uppercase">Continuous QMS Readiness Score</span>
-                      <span className="text-3xl font-bold font-mono text-[#0D5C63]">{auditScore}%</span>
-                    </div>
-                    <div className="flex items-center space-x-1.5 px-3 py-1 rounded-full bg-white text-[11px] font-mono font-medium text-emerald-600 shadow-sm">
-                      <span className="w-2 h-2 rounded-full bg-emerald-500 animate-ping" />
-                      <span>Ready for CAP Audit</span>
-                    </div>
-                  </div>
-
-                  {/* Tabs */}
-                  <div className="flex border-b border-gray-100">
-                    {(['personnel', 'instruments', 'documents'] as const).map((tab) => (
-                      <button
-                        key={tab}
-                        onClick={() => setActiveTab(tab)}
-                        className={`flex-1 pb-2 text-center text-xs font-semibold uppercase tracking-wider border-b-2 transition-all ${
-                          activeTab === tab
-                            ? 'border-[#0D5C63] text-[#0D5C63]'
-                            : 'border-transparent text-gray-400 hover:text-[#12303A]'
-                        }`}
-                      >
-                        {tab}
-                      </button>
-                    ))}
-                  </div>
-
-                  {/* Tab Details */}
-                  {activeTab === 'personnel' && (
-                    <div className="space-y-2.5 text-xs animate-fade-in">
-                      <div className="flex items-center justify-between p-2.5 bg-gray-50 rounded-xl">
-                        <span className="font-medium text-[#12303A]">Dr. E. Martinez (HCLD)</span>
-                        <span className="text-[10px] font-mono px-2 py-0.5 rounded-full bg-green-100 text-green-800">Approved</span>
-                      </div>
-                      <div className="flex items-center justify-between p-2.5 bg-gray-50 rounded-xl">
-                        <span className="font-medium text-[#12303A]">Competency Assessment (GEN.555)</span>
-                        <span className="text-[10px] font-mono px-2 py-0.5 rounded-full bg-green-100 text-green-800">6/6 Validated</span>
-                      </div>
-                      <div className="flex items-center justify-between p-2.5 bg-gray-50 rounded-xl">
-                        <span className="font-medium text-[#12303A]">ASCP Certification Verification</span>
-                        <span className="text-[10px] font-mono px-2 py-0.5 rounded-full bg-green-100 text-green-800">Verified</span>
-                      </div>
-                    </div>
-                  )}
-
-                  {activeTab === 'instruments' && (
-                    <div className="space-y-2.5 text-xs animate-fade-in">
-                      <div className="flex items-center justify-between p-2.5 bg-gray-50 rounded-xl">
-                        <span className="font-medium text-[#12303A]">NextSeq 2000 sequencer Calibration</span>
-                        <span className="text-[10px] font-mono px-2 py-0.5 rounded-full bg-green-100 text-green-800">Calibrated</span>
-                      </div>
-                      <div className="flex items-center justify-between p-2.5 bg-gray-50 rounded-xl">
-                        <span className="font-medium text-[#12303A]">Centrifuge 3B Rotor Log</span>
-                        <span className="text-[10px] font-mono px-2 py-0.5 rounded-full bg-[#E63946]/10 text-[#E63946]">Requires QC</span>
-                      </div>
-                      <div className="flex items-center justify-between p-2.5 bg-gray-50 rounded-xl">
-                        <span className="font-medium text-[#12303A]">Cold-Storage Refrigerator 4</span>
-                        <span className="text-[10px] font-mono px-2 py-0.5 rounded-full bg-green-100 text-green-800">4.1°C Stable</span>
-                      </div>
-                    </div>
-                  )}
-
-                  {activeTab === 'documents' && (
-                    <div className="space-y-2.5 text-xs animate-fade-in">
-                      <div className="flex items-center justify-between p-2.5 bg-gray-50 rounded-xl">
-                        <span className="font-medium text-[#12303A]">SOP-091: Somatic Mutation Pipeline</span>
-                        <span className="text-[10px] font-mono px-2 py-0.5 rounded-full bg-green-100 text-green-800">v3.2 Signed</span>
-                      </div>
-                      <div className="flex items-center justify-between p-2.5 bg-gray-50 rounded-xl">
-                        <span className="font-medium text-[#12303A]">FDA LDT Adverse Event procedure</span>
-                        <span className="text-[10px] font-mono px-2 py-0.5 rounded-full bg-green-100 text-green-800">Active</span>
-                      </div>
-                      <div className="flex items-center justify-between p-2.5 bg-gray-50 rounded-xl">
-                        <span className="font-medium text-[#12303A]">ISO 15189 Quality Handbook</span>
-                        <span className="text-[10px] font-mono px-2 py-0.5 rounded-full bg-yellow-100 text-yellow-800">In Review</span>
-                      </div>
-                    </div>
-                  )}
-
-                  {/* Interactive Button */}
-                  <button
-                    onClick={() => openContactModal('Continuous QMS Demo')}
-                    className="w-full bg-[#0D5C63] hover:bg-[#12303A] text-white py-3 rounded-2xl text-xs font-semibold transition-all flex items-center justify-center space-x-1"
-                  >
-                    <span>Run Automated Gap Check</span>
-                    <Sparkles className="w-4 h-4 ml-1" />
-                  </button>
-
-                </div>
-
-              </div>
-
-              {/* Small Overlay badge to support visual layers */}
-              <div className="absolute -bottom-6 -right-6 bg-[#E63946] text-white px-4 py-3 rounded-2xl shadow-lg border-2 border-white max-w-xs hidden sm:block animate-bounce-slow">
-                <span className="block font-bold text-xs">HIPAA COMPLIANT</span>
-                <span className="block text-[9px] text-red-100 font-mono">SOC2 Type II Accredited System</span>
-              </div>
-            </div>
+       
 
           </div>
         </div>

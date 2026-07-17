@@ -111,11 +111,11 @@ export default function Footer({ navigateTo, openContactModal }: FooterProps) {
         </div>
 
         {/* Middle Segment: Columns of Navigation */}
-        <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-8 py-12 border-b border-gray-800">
+        <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-8 py-12 border-b border-gray-700">
           
           {/* Consulting Submenu */}
           <div>
-            <span className="block text-xs font-mono font-bold text-[#0D5C63] uppercase tracking-wider mb-4">
+            <span className="block text-xs font-mono font-bold text-[#EAF6F5] uppercase tracking-wider mb-4">
               Consulting
             </span>
             <ul className="space-y-2.5 text-xs text-gray-400">
@@ -154,7 +154,7 @@ export default function Footer({ navigateTo, openContactModal }: FooterProps) {
 
           {/* About Submenu */}
           <div>
-            <span className="block text-xs font-mono font-bold text-[#0D5C63] uppercase tracking-wider mb-4">
+            <span className="block text-xs font-mono font-bold text-[#EAF6F5] uppercase tracking-wider mb-4">
               About Us
             </span>
             <ul className="space-y-2.5 text-xs text-gray-400">
@@ -188,7 +188,7 @@ export default function Footer({ navigateTo, openContactModal }: FooterProps) {
 
           {/* Platform & Products */}
           <div>
-            <span className="block text-xs font-mono font-bold text-[#0D5C63] uppercase tracking-wider mb-4">
+            <span className="block text-xs font-mono font-bold text-[#EAF6F5] uppercase tracking-wider mb-4">
               Platform Features
             </span>
             <ul className="space-y-2.5 text-xs text-gray-400">
@@ -222,28 +222,28 @@ export default function Footer({ navigateTo, openContactModal }: FooterProps) {
 
           {/* Contact Details */}
           <div>
-            <span className="block text-xs font-mono font-bold text-[#0D5C63] uppercase tracking-wider mb-4">
+            <span className="block text-xs font-mono font-bold text-[#EAF6F5] uppercase tracking-wider mb-4">
               Contact Us
             </span>
             <ul className="space-y-3 text-xs text-gray-400">
               <li className="flex items-start">
-                <MapPin className="w-4 h-4 text-[#0D5C63] mr-2 shrink-0 mt-0.5" />
+                <MapPin className="w-4 h-4 text-[#EAF6F5] mr-2 shrink-0 mt-0.5" />
                 <span>100 Federal Street, 24th Floor, Boston, MA 02110</span>
               </li>
               <li className="flex items-center">
-                <Mail className="w-4 h-4 text-[#0D5C63] mr-2 shrink-0" />
+                <Mail className="w-4 h-4 text-[#EAF6F5] mr-2 shrink-0" />
                 <a href="mailto:compliance@bunnirocks.com" className="hover:text-white">
                   compliance@bunnirocks.com
                 </a>
               </li>
               <li className="flex items-center">
-                <Phone className="w-4 h-4 text-[#0D5C63] mr-2 shrink-0" />
+                <Phone className="w-4 h-4 text-[#EAF6F5] mr-2 shrink-0" />
                 <a href="tel:+18005555227" className="hover:text-white">
                   +1 (800) 555-LABS
                 </a>
               </li>
               <li className="flex items-center">
-                <Clock className="w-4 h-4 text-[#0D5C63] mr-2 shrink-0" />
+                <Clock className="w-4 h-4 text-[#EAF6F5] mr-2 shrink-0" />
                 <span>Advisors Available 24/7/365</span>
               </li>
             </ul>
@@ -251,7 +251,7 @@ export default function Footer({ navigateTo, openContactModal }: FooterProps) {
 
           {/* Legal Pages */}
           <div>
-            <span className="block text-xs font-mono font-bold text-[#0D5C63] uppercase tracking-wider mb-4">
+            <span className="block text-xs font-mono font-bold text-[#EAF6F5] uppercase tracking-wider mb-4">
               Legal
             </span>
             <ul className="space-y-2.5 text-xs text-gray-400">
