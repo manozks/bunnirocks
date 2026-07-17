@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 200" width="700" height="200" role="img">
+  <title>BunniRocks horizontal logo</title>
+  <desc>A rabbit head whose ears are half-filled test tubes and whose face is watermarked with the repeating phrase Laboratory Compliance Consultant, beside the wordmark BunniRocks and the tagline Laboratory Compliance Consultant.</desc>
+
+  <defs>
+    <pattern id="brWatermarkH" width="122" height="26" patternUnits="userSpaceOnUse" patternTransform="rotate(-20)">
+      <text xml:space="preserve" x="0" y="9" textLength="122" lengthAdjust="spacingAndGlyphs" font-family="Nunito, 'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="7.5" font-weight="700" fill="#EAF6F5">Laboratory Compliance Consultant </text>
+      <text xml:space="preserve" x="-61" y="22" textLength="122" lengthAdjust="spacingAndGlyphs" font-family="Nunito, 'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="7.5" font-weight="700" fill="#EAF6F5">Laboratory Compliance Consultant </text>
+      <text xml:space="preserve" x="61" y="22" textLength="122" lengthAdjust="spacingAndGlyphs" font-family="Nunito, 'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="7.5" font-weight="700" fill="#EAF6F5">Laboratory Compliance Consultant </text>
+    </pattern>
+    <clipPath id="brHeadClipH">
+      <ellipse cx="100" cy="130" rx="48" ry="44"/>
+    </clipPath>
+  </defs>
+
+  <g transform="translate(10,10) scale(0.9)">
+    <ellipse cx="100" cy="130" rx="48" ry="44" fill="#0D5C63"/>
+    <rect x="50" y="84" width="100" height="92" fill="url(#brWatermarkH)" opacity="0.5" clip-path="url(#brHeadClipH)"/>
+    <g transform="translate(84,20) rotate(-14 0 78)">
+      <rect x="-13" y="0" width="26" height="78" rx="13" fill="#EAF6F5"/>
+      <path d="M -13 38 L -13 65 A 13 13 0 0 0 13 65 L 13 38 Z" fill="#E63946"/>
+      <rect x="-13" y="0" width="26" height="78" rx="8" fill="none" stroke="#0D5C63" stroke-width="5"/>
+    </g>
+    <g transform="translate(116,20) rotate(14 0 78)">
+      <rect x="-13" y="0" width="26" height="78" rx="13" fill="#EAF6F5"/>
+      <path d="M -13 38 L -13 65 A 13 13 0 0 0 13 65 L 13 38 Z" fill="#E63946"/>
+      <rect x="-13" y="0" width="26" height="78" rx="8" fill="none" stroke="#0D5C63" stroke-width="5"/>
+    </g>
+    <circle cx="82" cy="132" r="5.5" fill="#FFFFFF"/>
+    <circle cx="118" cy="132" r="5.5" fill="#FFFFFF"/>
+    <path d="M 100 140 C 100 140 107.5 149.5 107.5 152 A 7.5 7.5 0 1 1 92.5 152 C 92.5 149.5 100 140 100 140 Z" fill="#E63946"/>
+  </g>
+
+  <text x="212" y="108" font-family="Nunito, 'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="68" font-weight="800" letter-spacing="-1" fill="#12303A">Bunni<tspan fill="#0D5C63" font-weight="500">Rocks</tspan></text>
+  <text x="215" y="142" font-family="Nunito, 'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="17" font-weight="600" letter-spacing="5.2" fill="#6B8A8C">Laboratory Compliance Consultant</text>
+</svg>
