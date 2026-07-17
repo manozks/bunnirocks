@@ -89,7 +89,7 @@ export default function Navbar({ currentPage, navigateTo, openContactModal }: Na
               </button>
 
               {activeDropdown === 'consulting' && (
-                <div className="absolute top-full left-1/2 -translate-x-1/2 mt-1 w-[680px] bg-white rounded-2xl shadow-xl border border-gray-100 p-6 grid grid-cols-3 gap-6 animate-fade-in z-50">
+                <div className="absolute top-full right-0 translate-x-1/2 mt-0 w-[680px] bg-white rounded-2xl shadow-xl border border-gray-100 p-6 grid grid-cols-3 gap-6 animate-fade-in z-50">
                   {/* Launch Column */}
                   <div>
                     <span className="block text-xs font-mono font-bold text-[#0D5C63]/80 uppercase tracking-wider mb-3">
@@ -228,7 +228,7 @@ export default function Navbar({ currentPage, navigateTo, openContactModal }: Na
               </button>
 
               {activeDropdown === 'about' && (
-                <div className="absolute top-full left-0 mt-1 w-56 bg-white rounded-xl shadow-xl border border-gray-100 py-2 animate-fade-in z-50">
+                <div className="absolute top-full left-0 mt-0 w-56 bg-white rounded-xl shadow-xl border border-gray-100 py-2 animate-fade-in z-50">
                   <button
                     onClick={() => handleNav('about')}
                     className="flex items-center w-full text-left px-4 py-2.5 text-xs font-medium text-[#12303A] hover:bg-[#EAF6F5] hover:text-[#0D5C63]"
