@@ -219,9 +219,9 @@ export default function Home({ navigateTo, openContactModal }: HomeProps) {
           <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-6 items-center justify-items-center opacity-60">
             <span className="font-mono font-extrabold text-base tracking-widest text-[#12303A]"><img src="https://manozks.github.io/bunnirocks/cc-logo.jpg" alt="Modern Clinical Laboratory Background" className="w-full h-full object-cover"></span>
              <span className="font-mono font-extrabold text-base tracking-widest text-[#12303A]"><img src="https://manozks.github.io/bunnirocks/pc-logo.jpg" alt="Modern Clinical Laboratory Background" className="w-full h-full object-cover"></span>
-            <span className="font-mono font-extrabold text-base tracking-widest text-[#12303A]"><img src="https://manozks.github.io/bunnirocks/bh-logo.jpg" alt="Modern Clinical Laboratory Background" className="w-full h-full object-cover"></span>
-            <span className="font-mono font-extrabold text-base tracking-widest text-[#0D5C63]"><img src="https://manozks.github.io/bunnirocks/vg-logo.jpg" alt="Modern Clinical Laboratory Background" className="w-full h-full object-cover"></span>
-            <span className="font-mono font-extrabold text-base tracking-widest text-[#12303A]"><img src="https://manozks.github.io/bunnirocks/ng-logo.jpg" alt="Modern Clinical Laboratory Background" className="w-full h-full object-cover"></span>
+            <span className="font-mono font-extrabold text-base tracking-widest text-[#12303A]"><img src="https://manozks.github.io/bunnirocks/weill.jpg" alt="Modern Clinical Laboratory Background" className="w-full h-full object-cover"></span>
+            <span className="font-mono font-extrabold text-base tracking-widest text-[#0D5C63]"><img src="https://manozks.github.io/bunnirocks/ah-logo.jpg" alt="Modern Clinical Laboratory Background" className="w-full h-full object-cover"></span>
+            <span className="font-mono font-extrabold text-base tracking-widest text-[#12303A]"><img src="https://manozks.github.io/bunnirocks/chn-logo.jpg" alt="Modern Clinical Laboratory Background" className="w-full h-full object-cover"></span>
           </div>
         </div>
       </section>
