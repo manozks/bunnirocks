@@ -50,7 +50,7 @@ Our clients who transitioned from paper-based tracking to the BunniRocks SaaS da
       role: 'Senior Lab Management Consultant',
       avatar: 'GV'
     },
-    image: 'https://images.unsplash.com/photo-1579154204601-01588f35116f?auto=format&fit=crop&q=80&w=600',
+    image: 'https://manozks.github.io/bunnirocks/lab-room.jpg',
     content: `
 ### CMS Tightens Qualification Pathways
 
@@ -83,7 +83,7 @@ If you are planning a New Lab Build or looking to expand your test menu to inclu
       role: 'VP of Regulatory & Quality Systems',
       avatar: 'SA'
     },
-    image: 'https://images.unsplash.com/photo-1582719471384-894fbb16e074?auto=format&fit=crop&q=80&w=600',
+    image: 'https://manozks.github.io/bunnirocks/lab-time.jpg',
     content: `
 ### The Regulatory Landscape Shakes Up
 
