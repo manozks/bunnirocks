@@ -216,12 +216,13 @@ export default function Home({ navigateTo, openContactModal }: HomeProps) {
           <p className="text-center text-[11px] font-mono font-bold text-gray-400 uppercase tracking-widest mb-6">
             Trusted by Elite Laboratories and Diagnostic Developers
           </p>
-          <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-6 items-center justify-items-center opacity-60">
-            <span className="font-mono font-extrabold text-base tracking-widest text-[#12303A]"><img src="https://manozks.github.io/bunnirocks/cc-logo.jpg" alt="Modern Clinical Laboratory Background" className="w-full h-full object-cover"></span>
-             <span className="font-mono font-extrabold text-base tracking-widest text-[#12303A]"><img src="https://manozks.github.io/bunnirocks/pc-logo.jpg" alt="Modern Clinical Laboratory Background" className="w-full h-full object-cover"></span>
-            <span className="font-mono font-extrabold text-base tracking-widest text-[#12303A]"><img src="https://manozks.github.io/bunnirocks/weill.jpg" alt="Modern Clinical Laboratory Background" className="w-full h-full object-cover"></span>
-            <span className="font-mono font-extrabold text-base tracking-widest text-[#0D5C63]"><img src="https://manozks.github.io/bunnirocks/ah-logo.jpg" alt="Modern Clinical Laboratory Background" className="w-full h-full object-cover"></span>
-            <span className="font-mono font-extrabold text-base tracking-widest text-[#12303A]"><img src="https://manozks.github.io/bunnirocks/chn-logo.jpg" alt="Modern Clinical Laboratory Background" className="w-full h-full object-cover"></span>
+          <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4 items-center justify-items-center opacity-100">
+            <img src="https://manozks.github.io/bunnirocks/cc-logo.jpg" alt="LabCorp Logo" className="h-10 object-contain" />
+            <img src="https://manozks.github.io/bunnirocks/pc-logo.jpg" alt="Quest Logo" className="h-10 object-contain" />
+            <img src="https://manozks.github.io/bunnirocks/weill.jpg" alt="Beckman Coulter Logo" className="h-10 object-contain" />
+            <img src="https://manozks.github.io/bunnirocks/ah-logo.jpg" alt="Sysmex Logo" className="h-10 object-contain" />
+            <img src="https://manozks.github.io/bunnirocks/chn-logo.jpg" alt="Ortho Clinical Logo" className="h-10 object-contain" />
+              <img src="https://manozks.github.io/bunnirocks/bh-logo.jpg" alt="Ortho Clinical Logo" className="h-10 object-contain" />
           </div>
         </div>
       </section>
