@@ -62,7 +62,7 @@ export default function ConsultingPage({ subPage, navigateTo, openContactModal }
           subtitle: 'Wet-lab and dry-lab clinical validation files that stand up to rigorous peer review.',
           desc: 'Whether introducing high-complexity Next-Generation Sequencing (NGS), PCR infectious disease panels, or classic clinical chemistry, CMS and CAP require detailed, pre-documented evidence of analytical performance.',
           icon: Activity,
-          image: 'https://images.unsplash.com/photo-1579154204601-01588f35116f?auto=format&fit=crop&q=80&w=800',
+          image: 'https://manozks.github.io/bunnirocks/lab-tube.jpg',
           requirements: [
             'Accuracy, Precision, and Analytical Measurement Range (AMR) parameters',
             'Limit of Detection (LOD) and Limit of Quantitation (LOQ) wet-lab runs',
