@@ -154,7 +154,7 @@ export default function ConsultingPage({ subPage, navigateTo, openContactModal }
           subtitle: 'Streamlining lab throughput to exceed clinical provider expectations.',
           desc: 'In critical care and acute oncology, turnaround time can save lives. We identify operational bottlenecks, instrument downtime issues, and staffing constraints to accelerate your diagnostic timeline safely.',
           icon: TrendingUp,
-          image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=800',
+          image: 'https://manozks.github.io/bunnirocks/lab-time.jpg',
           requirements: [
             'Accessioning bottleneck analysis (barcoding, automated sorting)',
             'Rethinking laboratory shifts and high-complexity personnel allocations',
@@ -177,7 +177,7 @@ export default function ConsultingPage({ subPage, navigateTo, openContactModal }
           subtitle: 'Active gap monitoring, audit defense, and CMS citation mitigation.',
           desc: 'Don’t wait for your biennial inspection window to find out your laboratory director files or instrument calibration logs are missing. Our continuous audit model keeps your site inspection-ready 365 days a year.',
           icon: Shield,
-          image: 'https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?auto=format&fit=crop&q=80&w=800',
+          image: 'https://manozks.github.io/bunnirocks/lab-picture.jpg',
           requirements: [
             'Biennial mock inspections using active CAP checklists',
             'CMS Plan of Correction (PoC) preparation and regulatory defense',
@@ -200,7 +200,7 @@ export default function ConsultingPage({ subPage, navigateTo, openContactModal }
           subtitle: 'Establishing robust quality frameworks that comply with ISO 15189.',
           desc: 'A clinical Quality Management System (QMS) must be structured, auditable, and easily maintained. We build custom-tailored QMS models incorporating SOP document controls, equipment maintenance alerts, and automated training logs.',
           icon: Award,
-          image: 'https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&q=80&w=800',
+          image: 'https://manozks.github.io/bunnirocks/lab-room.jpg',
           requirements: [
             'ISO 15189 international laboratory standard transitions',
             'Standardized document control systems (version histories, direct signoffs)',
@@ -224,7 +224,7 @@ export default function ConsultingPage({ subPage, navigateTo, openContactModal }
           subtitle: 'Specialized workflow consulting for tissue diagnostics and digital pathology.',
           desc: 'Histology and cellular pathology represent distinct physical challenges: chemical fume handling, manual block embedding, slide tracking, and the integration of digital imaging scanners into clinical diagnosis.',
           icon: FileText,
-          image: 'https://images.unsplash.com/photo-1576086213369-97a306d36557?auto=format&fit=crop&q=80&w=800',
+          image: 'https://manozks.github.io/bunnirocks/lab-pathology.jpg',
           requirements: [
             'Formaldehyde monitoring systems and chemical hood compliance',
             'Slide barcoding and positive patient identification loops',
