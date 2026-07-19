@@ -122,7 +122,7 @@ export default function Home({ navigateTo, openContactModal }: HomeProps) {
         {/* Full-width Hero Background Image */}
         <div className="absolute inset-0 z-0">
           <img
-            src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=1920"
+            src="https://manozks.github.io/bunnirocks/lab-picture.jpg"
             alt="Modern Clinical Laboratory Background"
             className="w-full h-full object-cover select-none pointer-events-none"
             referrerPolicy="no-referrer"
