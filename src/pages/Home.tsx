@@ -217,7 +217,7 @@ export default function Home({ navigateTo, openContactModal }: HomeProps) {
             Trusted by Elite Laboratories and Diagnostic Developers
           </p>
           <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-6 items-center justify-items-center opacity-60">
-            <span className="font-mono font-extrabold text-base tracking-widest text-[#12303A]">ONCOPATH_LABS</span>
+            <span className="font-mono font-extrabold text-base tracking-widest text-[#12303A]"><img src="https://manozks.github.io/bunnirocks/lab-picture.jpg" alt="Modern Clinical Laboratory Background" className="w-full h-full object-cover"></span>
             <span className="font-mono font-extrabold text-base tracking-widest text-[#0D5C63]">METRO_HEALTH</span>
             <span className="font-mono font-extrabold text-base tracking-widest text-[#12303A]">BOSTON_HISTO</span>
             <span className="font-mono font-extrabold text-base tracking-widest text-[#0D5C63]">VANGUARD_DX</span>
