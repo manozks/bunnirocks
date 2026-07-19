@@ -85,7 +85,7 @@ export default function ConsultingPage({ subPage, navigateTo, openContactModal }
           subtitle: 'Interim directors, certified administrators, and robust daily operations oversight.',
           desc: 'High-complexity diagnostic laboratories must operate under strict, credentialed personnel. We source certified lab managers and provide fractional HCLD directors immediately to protect legal compliance and daily throughput quality.',
           icon: Users,
-          image: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=800',
+          image: 'https://manozks.github.io/bunnirocks/lab-picture.jpg',
           requirements: [
             'Fulfilling Clinical Laboratory Improvement Amendments (CLIA) director status',
             'Active New York State SDOH Certificate of Qualification (CQ) placement',
@@ -131,7 +131,7 @@ export default function ConsultingPage({ subPage, navigateTo, openContactModal }
           subtitle: 'Optimizing specimen routing, transportation logistics, and reagent storage footprint.',
           desc: 'Poor physical routing leads to delayed test results, degraded blood specimens, and increased operational costs. We model perfect layouts that align sample entry, accessioning, testing, and specimen archiving.',
           icon: Globe,
-          image: 'https://images.unsplash.com/photo-1581093588401-f3c22d7a1f18?auto=format&fit=crop&q=80&w=800',
+          image: 'https://manozks.github.io/bunnirocks/lab-room.jpg',
           requirements: [
             'Lean Six Sigma specimen routing and accessioning layouts',
             'Cold-chain transportation logistics (dry ice and ambient validation)',
